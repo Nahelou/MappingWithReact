@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Première app React.<br />
-          Toujours du webmapping
+          Le but étant de prendre en main un Framework JavaScript et de créer de meilleures UI
         </p>
         <a
           className="App-link"
