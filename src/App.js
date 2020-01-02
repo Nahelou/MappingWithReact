@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Première app React.<br>
+          Première app React.<br />
           Toujours du webmapping
         </p>
         <a
