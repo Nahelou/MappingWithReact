@@ -8,15 +8,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Première app React.<br>
+          Toujours du webmapping.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://nahelou.github.io/site/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Retour à l'écran d'accueil
         </a>
       </header>
     </div>
