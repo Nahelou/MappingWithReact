@@ -1,4 +1,4 @@
-##Utilisation de React pour la création d'applications.
+###Utilisation de React pour la création d'applications.
 
  Ce répertoire comprend ma prise de connaissance du frameWork React ainsi que son utilisation dans la mise en place d'applications de Dataviz intéractives/Webmapping.
 
