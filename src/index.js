@@ -10,7 +10,7 @@ import {StaticMap} from 'react-map-gl';
 // ReactDOM.render(<App />, document.getElementById('root'));
 /// app.js
 
-const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoibmFoZWxvdSIsImEiOiJjamVvZHc5N24zazU2MzNwa2N4cWppa2lsIn0.5_rLbZlODCllJudZrubOcA';
+const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoibmFoZWxvdSIsImEiOiJjazUxOG9yNDcwcDUyM3NtaTVzMnd5ejdrIn0.hFTRn-SVqOhufKAcRCnYLA';
 
 const initialViewState = {
   longitude: -1.549780,
