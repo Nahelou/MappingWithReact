@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {PureComponent} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import DeckGL from '@deck.gl/react';
 import {WebMercatorViewport} from '@deck.gl/core';
 import GL from '@luma.gl/constants';
 import {GeoJsonLayer} from '@deck.gl/layers';
+import {HeatmapLayer} from '@deck.gl/aggregation-layers';
 import {StaticMap} from 'react-map-gl';
 
 
@@ -17422,7 +17423,9 @@ const data = {
 ]
 }
 ;
-
+const intensity = 5;
+const threshold = 0.05;
+const radiusPixels = 100;
 
 class App extends React.Component {
   render() {
@@ -17430,7 +17433,7 @@ class App extends React.Component {
       new GeoJsonLayer({
         id: 'point-layer',
         data,
-        getRadius: 5000,
+        getRadius: 3000,
         getFillColor: [240, 60, 200],
         onViewStateChange: ({viewState}) => {
           const viewport = new WebMercatorViewport(viewState);
@@ -17446,6 +17449,15 @@ class App extends React.Component {
           [GL.BLEND_DST_RGB]: GL.ONE,
           [GL.BLEND_EQUATION]: GL.FUNC_ADD,
         }
+      }),
+      new HeatmapLayer({
+        data,
+        id: 'heatmp-layer',
+        pickable: false,
+        getPosition: d => [d.coordinates[1], d.coordinates[0]],
+        intensity,
+        threshold,
+        radiusPixels
       })
     ];
 
@@ -17455,7 +17467,10 @@ class App extends React.Component {
         controller={true}
         layers={layers}
       >
-        <StaticMap mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN} />
+        <StaticMap
+          mapStyle={'mapbox://styles/mapbox/dark-v9'}
+          preventStyleDiffing={true}
+          mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN} />
       </DeckGL>
     );
   }
