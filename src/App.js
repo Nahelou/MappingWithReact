@@ -7,7 +7,7 @@ import GL from '@luma.gl/constants';
 import {GeoJsonLayer} from '@deck.gl/layers';
 import {HeatmapLayer} from '@deck.gl/aggregation-layers';
 import {StaticMap} from 'react-map-gl';
-import data from './data/tweets.json';
+import data from './data/tweets_simplify.json';
 
 
 
@@ -31,11 +31,16 @@ class App extends React.Component {
        intensity: 5,
        threshold: 0.05,
        radiusPixels: 100,
+       style: {
+         height:'95vh',
+         width:'67vw',
+         marginTop:'5vh'
+       }
       };
   }
 
+
   async componentDidMount() {
-    console.log(data.features[0].geometry.coordinates)
   }
 
   render() {
@@ -77,6 +82,7 @@ class App extends React.Component {
         initialViewState={this.state.viewState}
         controller={true}
         layers={layers}
+        style={this.state.style}
       >
         <StaticMap
           key="1"
