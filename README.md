@@ -2,7 +2,7 @@
 
  Ce répertoire comprend ma prise de connaissance du frameWork React ainsi que son utilisation dans la mise en place d'applications de Dataviz intéractives/Webmapping.
 
- L'application en question se trouve [ICI](https://nahelou.github.io/apps/)
+ L'application en question se trouve [ICI](https://nahelou.github.io/MappingWithReact/)
 
  N'hésitez pas à me faire vos retours ou à contribuer.
 

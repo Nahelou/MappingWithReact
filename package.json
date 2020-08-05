@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Nahelou.github.io/apps/",
+  "homepage": "https://Nahelou.github.io/MappingWithReact/",
   "dependencies": {
     "@deck.gl/layers": "^8.0.1",
     "@deck.gl/react": "^8.0.1",
