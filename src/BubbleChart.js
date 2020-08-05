@@ -113,7 +113,6 @@ class BubbleChart extends React.Component {
             .interpolate(d3.interpolateHcl)
             .range(["#fcc5c0", "#7a0177"]);
 
-        // render simple circle element
         if (!this.props.useLabels) {
             const circles = _.map(data, (item, index) => {
                 return (
