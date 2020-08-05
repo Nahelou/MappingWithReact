@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/apps/static/css/main.c859eb37.chunk.css",
-    "main.js": "/apps/static/js/main.26a58430.chunk.js",
-    "main.js.map": "/apps/static/js/main.26a58430.chunk.js.map",
-    "runtime-main.js": "/apps/static/js/runtime-main.0bd71be2.js",
-    "runtime-main.js.map": "/apps/static/js/runtime-main.0bd71be2.js.map",
-    "static/js/2.730e8001.chunk.js": "/apps/static/js/2.730e8001.chunk.js",
-    "static/js/2.730e8001.chunk.js.map": "/apps/static/js/2.730e8001.chunk.js.map",
-    "index.html": "/apps/index.html",
-    "precache-manifest.584f4bf06a849b72b3e738047614fe91.js": "/apps/precache-manifest.584f4bf06a849b72b3e738047614fe91.js",
-    "service-worker.js": "/apps/service-worker.js",
-    "static/css/main.c859eb37.chunk.css.map": "/apps/static/css/main.c859eb37.chunk.css.map",
-    "static/js/2.730e8001.chunk.js.LICENSE": "/apps/static/js/2.730e8001.chunk.js.LICENSE",
-    "static/media/logo.svg": "/apps/static/media/logo.ee7cd8ed.svg"
+    "main.css": "/MappingWithReact/static/css/main.c859eb37.chunk.css",
+    "main.js": "/MappingWithReact/static/js/main.a86b0f12.chunk.js",
+    "main.js.map": "/MappingWithReact/static/js/main.a86b0f12.chunk.js.map",
+    "runtime-main.js": "/MappingWithReact/static/js/runtime-main.506ac0c9.js",
+    "runtime-main.js.map": "/MappingWithReact/static/js/runtime-main.506ac0c9.js.map",
+    "static/js/2.101961f4.chunk.js": "/MappingWithReact/static/js/2.101961f4.chunk.js",
+    "static/js/2.101961f4.chunk.js.map": "/MappingWithReact/static/js/2.101961f4.chunk.js.map",
+    "index.html": "/MappingWithReact/index.html",
+    "precache-manifest.f3c53615cb3b84a253187f82aa7ccb29.js": "/MappingWithReact/precache-manifest.f3c53615cb3b84a253187f82aa7ccb29.js",
+    "service-worker.js": "/MappingWithReact/service-worker.js",
+    "static/css/main.c859eb37.chunk.css.map": "/MappingWithReact/static/css/main.c859eb37.chunk.css.map",
+    "static/js/2.101961f4.chunk.js.LICENSE": "/MappingWithReact/static/js/2.101961f4.chunk.js.LICENSE",
+    "static/media/logo.svg": "/MappingWithReact/static/media/logo.ee7cd8ed.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bd71be2.js",
-    "static/js/2.730e8001.chunk.js",
+    "static/js/runtime-main.506ac0c9.js",
+    "static/js/2.101961f4.chunk.js",
     "static/css/main.c859eb37.chunk.css",
-    "static/js/main.26a58430.chunk.js"
+    "static/js/main.a86b0f12.chunk.js"
   ]
 }
